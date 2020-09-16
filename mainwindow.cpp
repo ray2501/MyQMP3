@@ -102,6 +102,10 @@ void MainWindow::on_actionQuit_triggered()
     QApplication::quit();
 }
 
+void MainWindow::on_actionAbout_triggered() {
+    QMessageBox::about(this, tr("About"), tr("It is written by Qt."));
+}
+
 void MainWindow::on_actionPlay_triggered()
 {
     if (player)

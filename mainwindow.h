@@ -32,6 +32,7 @@ private slots:
     void on_actionOpen_triggered();
     void on_actionClose_triggered();
     void on_actionQuit_triggered();
+    void on_actionAbout_triggered();
     void on_actionPlay_triggered();
     void on_actionStop_triggered();
     void on_horizontalSlider_sliderPressed();
